@@ -1,0 +1,118 @@
+//#include <SFML/Graphics.hpp>
+//#include <SFML/Audio.hpp>
+//#include <SFML/Network.hpp>
+//#include <SFML/System.hpp>
+//#include <SFML/Window.hpp>
+//#include "Animation.h"
+//#include <iostream>
+//#include <time.h>
+//
+//int main()
+//{
+//
+//	sf::RenderWindow window(sf::VideoMode(1600, 900), "Hell Me");
+//	srand(time(NULL));
+//
+//	//Built Map
+//	sf::RectangleShape map(sf::Vector2f(12000, 8000));
+//	map.setPosition(0.0f, 0.0f);
+//	sf::Texture mapTexture;
+//	mapTexture.loadFromFile("Map.jpg");
+//	map.setTexture(&mapTexture);
+//	
+//	//Built Character
+//	sf::CircleShape player(20.0f);
+//	player.setFillColor(sf::Color::Black);
+//	//player.setPosition(rand() % 12000 + 500, rand() % 8000 + 500);
+//	player.setPosition(0, 0);
+//
+//	//Built MiniMap
+//	bool Mapstate = 0;
+//	double minimapX, minimapY;
+//	minimapX = player.getPosition().x-180;
+//	minimapY = player.getPosition().y-120;
+//	sf::RectangleShape minimap(sf::Vector2f(360,240));
+//	minimap.setOutlineColor(sf::Color::Black);
+//	minimap.setPosition(minimapX, minimapY);
+//	sf::Texture minimapTexture;
+//	minimapTexture.loadFromFile("images/MiniMap.jpg");
+//	minimapTexture.setSmooth(true);
+//	minimap.setTexture(&minimapTexture);
+//
+//	//Built MiniCharater
+//	double playerX, playerY;
+//	playerX = player.getPosition().x-180;//-180 +176
+//	playerY = player.getPosition().y-120;//-120 +116
+//	sf::CircleShape miniplayer(2.0f);
+//	miniplayer.setFillColor(sf::Color::Red);
+//	miniplayer.setOrigin(sf::Vector2f(2, 2));
+//	miniplayer.setPosition(playerX,playerY);
+//
+//	//Footstep
+//	double footX, footY;
+//	footX = player.getPosition().x - 10;
+//	footY = player.getPosition().y - 10;
+//	sf::RectangleShape foot(sf::Vector2f(520, 260));
+//	foot.setSize(sf::Vector2f(26, 13));
+//	foot.setPosition(footX,footY);
+//	sf::Texture footTexture;
+//	footTexture.loadFromFile("images/Footstep/footstep-ne.png");
+//	footTexture.setSmooth(true);
+//	foot.setTexture(&footTexture);
+//	Animation footstep(&footTexture,sf::Vector2u(2,1),1);
+//
+//	//View
+//	sf::View view(sf::Vector2f(800, 450), sf::Vector2f(720, 480));
+//	window.setView(view);
+//
+//	while (window.isOpen()){
+//		double moveX = 0.5,moveY=-0.5;
+//		double moveXminiP,moveYminiP;
+//		sf::Event event;
+//		while (window.pollEvent(event)){
+//			if (event.type == sf::Event::Closed)	window.close();
+//		}
+//
+//		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
+//			player.move(-1*moveX, 0.0f);
+//			foot.move(-1*moveX, 0.0f);
+//			minimap.move(-1*moveX, 0.0f);
+//			miniplayer.move(-1*moveX - 0.0151515151515152f,0.0f);
+//		}
+//		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
+//			player.move(moveX, 0.0f);
+//			foot.move(moveX, 0.0f);
+//			minimap.move(moveX, 0.0f);
+//			miniplayer.move(moveX+0.0151515151515152f, 0.0f);//0.0297658862876254
+//		}
+//		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W)) {
+//			player.move(0.0f, -0.5f);
+//			foot.move(0.0f, -0.5f);
+//			minimap.move(0.0f, -0.5f);
+//			miniplayer.move(0.0f, -0.50f);
+//		}
+//		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)) {
+//			player.move(0.0f, 0.5f);
+//			foot.move(0.0f, 0.5f);
+//			minimap.move(0.0f, 0.5f);
+//			miniplayer.move(0.0f, 0.50f);
+//		}
+//
+//		view.setCenter(player.getPosition());
+//
+//		window.clear();
+//		window.draw(map);
+//		foot.setTextureRect(footstep.uvRect);
+//		window.draw(foot);
+//		window.draw(player);
+//		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::M)) {
+//			window.draw(minimap);
+//			window.draw(miniplayer);
+//		}
+//		
+//		window.setView(view);
+//		window.display();
+//	}
+//
+//	return 0;
+//}

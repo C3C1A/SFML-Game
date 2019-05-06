@@ -1,0 +1,116 @@
+﻿  Source.cpp
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(83): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(222): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(236): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(249): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(254): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(333): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(374): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(379): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(384): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(391): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(489): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(503): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(526): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(555): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(626): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(732): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(891): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1185): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1214): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1267): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1268): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1276): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(512): warning C4102: 'Main': unreferenced label
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(177): warning C4101: 'seaX': unreferenced local variable
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(177): warning C4101: 'seaY': unreferenced local variable
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(437): warning C4101: 'reload': unreferenced local variable
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1344): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1411): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1416): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(240): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1426): note: see reference to function template instantiation 'std::pair<std::string,float>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&) noexcept' being compiled
+  c:\users\nieve\source\repos\sfml2\sfml\sfml\source.cpp(1426): note: see reference to function template instantiation 'std::pair<std::string,float>::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,0>(std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int> &&) noexcept' being compiled
+  Generating code
+  1 of 1023 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  sfml.vcxproj -> C:\Users\Nieve\source\repos\sfml2\sfml\x64\Release\sfml.exe
